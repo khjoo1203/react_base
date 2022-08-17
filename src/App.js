@@ -1,10 +1,10 @@
 //import './App.css';
 import {useState, useRef, useCallback} from 'react';
-import Header from './header/Header';
-import Layout from './layout/Layout';
-import Form from './form/Form';
-import Todo from './todo/Todo';
-import List from './list/List';
+import Header from './components/header/Header';
+import Layout from './components/layout/Layout';
+import Form from './components/form/Form';
+import Todo from './components/todo/Todo';
+import List from './components/list/List';
 
 const App = () => {
   const [todos, setTodos] = useState([
